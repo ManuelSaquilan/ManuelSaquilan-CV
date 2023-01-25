@@ -1,0 +1,230 @@
+body {
+    background-color:rgb(8, 28, 141);
+    color:white;
+}
+
+header{
+    padding: 0px 1px;
+    position:fixed;
+    top: 0;
+    background:none;
+    z-index: 1;
+}
+
+
+h1 {
+    color: rgb(226, 226, 238);
+    text-align: center;
+    text-shadow: 1px 3px 5px rgb(0, 0, 0);
+    border-style: double;
+    border-color:yellow;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    padding: 10px;
+    width:fit-content;
+    margin-bottom: 5px;
+}
+
+h2 {
+    position:relative;
+    font-size: medium;
+    color:antiquewhite;
+    text-align: center;
+    text-shadow: 1px 3px 5px rgb(0, 0, 0);
+    border-style: double;
+    border-color:yellow;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    padding: 10px;
+    width:fit-content;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    scroll-behavior:initial;
+}
+
+h4 {
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 10px 10px 10px 10px;
+    text-align:left;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+ul {
+    position:fixed;
+    list-style-type:none;
+    margin-left: 0%;
+    overflow: hidden;
+    padding: 10px;
+    /* background-color:rgb(8, 28, 141);*/
+    
+    /* border: 1px solid #e7e7e7; */
+}
+
+li {
+    float:inline-start;
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align:left;
+    padding: 3px 10px ;
+    text-decoration: none;
+    background-color:rgb(63, 18, 187);
+    border-style: double;
+    border-color:yellow;
+    border-radius: 10px;
+    margin: 5px;
+    width: 170px;
+    height: 30px;
+    font-family: 'Tourney', cursive;
+    transition-duration: 0.4s;
+}
+/* Cambia el color del link a #111 (black) on hover */
+li a:hover {
+    background-color:rgb(0, 132, 255) ;
+    box-shadow: 0 12px 12px 0 rgba(255,255,255,0.24), 0 12px 12px 0 rgba(255,255,255,0.24);
+  }
+
+img {
+    border-radius: 20px;
+    border-style: double;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+
+section1 {
+    display: flex;
+    
+}
+
+section1 div p {
+    margin-bottom: 24px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+hr {
+    border-width: 5px;
+    border-style: double;
+    border-color:goldenrod;
+}
+
+a {
+    padding: 43%;
+    color: white;
+    text-align: center;
+}
+
+div{
+    padding-top: 10Px;
+    white-space: 3px;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+
+  }
+
+
+/* para dibujar un ícono sobre un fondo claro con un color oscuro de primer plano */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/*  para dibujar un ícono sobre un fondo oscuro con un color de primer plano claro */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+span {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+#boton {
+    background-color:mediumslateblue;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 14px;
+    margin: 4px 45% 4px 45%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Tourney', cursive;
+    transition-duration: 0.4s;
+}
+
+#boton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24), 0 17px 50px 0 rgba(255,255,255,0.24);
+}
+
+#boton:active {
+    box-shadow: 0 5px #666;
+    transform: translateX(4px);
+}
+
+.correo {
+    padding: 10px;
+    margin-left: 43%;
+    cursor: pointer;
+}
+
+.certificados {
+    display: fixed;
+    margin-left: 280px;
+}
+
+.imagen {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    visibility:hidden;
+    transition-duration: .5s;
+    border-radius: 5px;
+}
+
+.imagen:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.904), 0 17px 50px 0 rgba(255,255,255,0.24);
+    transform: scale(3);
+}

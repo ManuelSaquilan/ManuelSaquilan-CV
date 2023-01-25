@@ -1,0 +1,15 @@
+{
+    "nombre" : "Manuel Bernardo",
+    "apellido" : "Saquilán",
+    "mail": "manuel.saquilan@gmail.com",
+    "dni":21704737,
+    "nacimiento": "28/07/1970",
+    "direccion": "Ruta Nac. 157 s/n - Fte. Bo 55 viv - Recreo - Catamarca - Argentina",
+    "telefono": "3832-412280",
+    "estudios": ["Ing. Electrónica - Universidad Nacional de Córdoba",  "Perito informático - Educacion IT", "Programación - Se programar en Argentina Programa","Programacion en CODO A CODO 4.0 Ministerio de Educación e Innovación - GCBA", "Curso de habilidades blandas en Accenture"
+    ],
+    "lenguajes": ["Access","VBA Excel","Visual Basic","Gobstones","Ruby","Python","HTML","CSS","Javascript"],
+    "experiencia": ["Municipalidad de Recreo desarrollo de aplicaciones en VBA EXCEL","Concejo Deliberante de Recreo desarrollo de aplicaciones en VBA EXCEL","Montajes Industriales Sorda desarrollo de aplicaciones en VBA EXCEL","Sindicato de Trabajadores de Industria Alimenticia desarrollo de aplicaciones en VBA EXCEL","ARCOR desarrollo de aplicaciones en VBA EXCEL","Desarrollo de tablero electronico para Basquet  y Handball en VISUAL BASIC 6.0","Desarrollo de sistema para servicio técnico de mi comercio donde realizo service de pc, notebooks e impresoras en ACCESS"],
+    "idiomas":["Español","Ingles básico"],
+    "habilidades":["Trabajo en equipo", "Dirección de grupos de trabajo","Atención al público","Planificación","Dictado de capacitaciones","Conocimiento de base de datos","Trabajo en redes y cctv","Edición de video"]
+}

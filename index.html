@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1 id="#idhome">Manuel Saquilán</h1>
+        <ul>
+            <li><a href="#iddatospersonales"><span class="material-icons md-24">
+                person</span>Datos Personales</a></li>
+            <li><a href="#idestudios"><span class="material-icons md-24">
+                school</span>Estudios</a></li>
+            <li><a href="#idlenguajes"><span class="material-icons md-24">
+                code</span>Lenguajes</a></li>
+            <li><a href="#idexperiencia"><span class="material-icons md-24">
+                    work_history</span>Experiencia</a></li>
+            <li><a href="#idhabilidades"><span class="material-icons md-24">
+                history_edu</span>Habilidades</a></li>
+            <li><a href="#ididiomas"><span class="material-icons md-24">
+                            language</span>Idiomas</a></li>
+            <li><a href="#idcontacto"><span class="material-icons md-24">
+                email</span>Contacto</a></li>
+            <li><a href="#idcopyright"><span class="material-icons md-24">
+                copyright</span>About</a></li>
+        </ul>
+    </header>
+
+    <section>
+        
+        <div>
+            <h2 id="iddatospersonales">DATOS PERSONALES</h2>            
+        
+            <section1>
+                <div>
+                    <img src="imagenes/Manuel.jpg" width="150" style="float:initial;">
+                </div>
+                
+                <div>
+                        <h4>Apellido: </h4>
+                        <h4>Nombre: </h4>
+                        <h4>DNI: </h4>
+                        <h4>Mail: </h4>
+                        <h4>Fecha de Nacimiento: </h4>
+                        <h4>Direccion: </h4>
+                        <h4>Telefono: </h4>
+                </div>
+                <div>
+                        <h4 id ="idapellido"></h4>
+                        <h4 id ="idname"></h4>
+                        <h4 id ="iddni"></h4>
+                        <h4 id ="idmail"></h4>
+                        <h4 id ="idnacimiento"></h4>
+                        <h4 id ="iddireccion"></h4>
+                        <h4 id ="idtelefono"></h4>
+                </div>
+                
+            </section1>
+
+        </div>
+        
+        <div>
+            <h2 id="idestudios" >ESTUDIOS</h2>
+            <p id ="idestudios1"></p>
+            <p id ="idestudios2"></p>
+            <p id ="idestudios3"></p>
+            <p id ="idestudios4"></p>
+            <p id ="idestudios5"></p>
+        </div>    
+            
+            
+        <div>
+            <button type="button" id="boton" >Mostrar Certificados</button>
+        </div>
+
+        <div class = "certificados" id="todos">
+            <img class ="imagen" src="imagenes/01introlinux.jpg" id="01">
+            <img class ="imagen" src="imagenes/02seguridad.jpg" id="02">
+            <img class ="imagen" src="imagenes/03redes.jpg" id="03">
+            <img class ="imagen" src="imagenes/04linux.jpg" id="04">
+            <img class ="imagen" src="imagenes/05criptografia.jpg" id="05">
+            <img class ="imagen" src="imagenes/06cibercrimen.jpg" id="06">
+            <img class ="imagen" src="imagenes/07forense.jpg" id="07">
+        </div>
+
+        <div>
+            <h2 ID="idlenguajes">LENGUAJES</h2>
+            <p id ="idlenguajes1"></p>
+            <p id ="idlenguajes2"></p>
+            <p id ="idlenguajes3"></p>
+            <p id ="idlenguajes4"></p>
+            <p id ="idlenguajes5"></p>
+            <p id ="idlenguajes6"></p>
+            <p id ="idlenguajes7"></p>
+            <p id ="idlenguajes8"></p>
+            <p id ="idlenguajes9"></p>
+        </div>
+
+        <div>
+            <h2 ID="idexperiencia">EXPERIENCIA</h2>
+            <p id ="idexperiencia1"></p>
+            <p id ="idexperiencia2"></p>
+            <p id ="idexperiencia3"></p>
+            <p id ="idexperiencia4"></p>
+            <p id ="idexperiencia5"></p>
+            <p id ="idexperiencia6"></p>
+            <p id ="idexperiencia7"></p>
+        </div>
+    
+        <div>
+            <h2 ID="idhabilidades">HABILIDADES</h2>
+            <p id ="idhabilidades1"></p>
+            <p id ="idhabilidades2"></p>
+            <p id ="idhabilidades3"></p>
+            <p id ="idhabilidades4"></p>
+            <p id ="idhabilidades5"></p>
+            <p id ="idhabilidades6"></p>
+            <p id ="idhabilidades7"></p>
+            <p id ="idhabilidades8"></p>
+        </div>
+
+        <div>
+            <h2 ID="ididiomas">IDIOMAS</h2>
+            <p id ="ididiomas1"></p>
+            <p id ="ididiomas2"></p>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <div>
+            <h2 id="idcontacto">CONTACTO</h2>
+            <a class = "correo" href="mailto:manuel.saquilan@gmail.com" id="correo">manuel.saquilan@gmail.com</a>
+        </div>
+        <div>
+            <h2 id="idcopyright">ABOUT</h2>
+            <p>Copyright 2023 by Manuel Saquilán</p>
+        </div>
+    </footer>
+
+    <script src="funciones.js"></script>
+    
+</body>
+</html>
