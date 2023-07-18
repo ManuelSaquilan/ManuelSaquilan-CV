@@ -137,3 +137,16 @@ certificado.addEventListener("click",function() {
     }
 }
 )
+
+
+
+function ocultarmenu(){
+    if (screen.width<=600)
+        document.getElementById("ul").style.visibility="hidden";
+}
+
+function mostrarmenu(){
+    if (screen.width<=600)
+        document.getElementById("ul").style.visibility="visible";
+}
+
