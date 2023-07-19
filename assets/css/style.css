@@ -322,33 +322,53 @@ span {
         color: burlywood;
         transition-duration: 700ms;
       }
+
     #label_check{
         display: block;
       }
-       
- 
-
-    img {
-        margin-left: 7.875em;
-    }
-
+    
     section1 {
         display:block;
         margin-left: 0%;
+        text-align: center;
     }
+    
+    .foto{
+        margin: 0px;
+    }
+
+    img {
+        margin: 0px;
+    }
+
     
     .datos p {
         text-align: center;
     }
     .mostrar {
-        margin-right: 90px;
-        
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
     }
+
+  
     section{
         margin-left: 40px;
         margin-right: 40px;
     }
-    
+    .certificados{
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .correo{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
 }
 
     
