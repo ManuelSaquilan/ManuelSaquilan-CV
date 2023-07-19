@@ -139,6 +139,7 @@ certificado.addEventListener("click",function() {
 )
 
 
+/* Scripts para menu hamburguesa */
 
 function ocultarmenu(){
     if (screen.width<=600)
