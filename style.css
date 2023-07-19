@@ -1,0 +1,389 @@
+body {
+    background-color:rgb(5, 19, 97);
+    color:white;
+}
+
+header{
+    padding: 0px 0.563em;
+    position:fixed;
+    top: 0;
+    background:none;
+    z-index: 1;
+}
+
+/*ELEMENTOS RESPONSIVOS*/
+
+  
+#label_check{
+    width: 26px;
+    height: 100%;
+    display: none;
+}
+  
+
+
+label{
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    user-select: none;
+}
+
+h1 {
+    color: rgb(226, 226, 238);
+    text-align: center;
+    text-shadow: 0.063em 0.188em 0.313em rgb(0, 0, 0);
+    padding: 0.625em;
+    width:fit-content;
+    margin-bottom: 0.313em;
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+h2 {
+    position:relative;
+    font-size: medium;
+    color:burlywood;
+    text-align: center;
+    text-shadow: 0.063em 0.188em 0.313em rgb(0, 0, 0);
+    background-color:rgb(6, 22, 112);
+    border-radius: 0.625em;
+    padding: 0.625em;
+    width:fit-content;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 50%;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    scroll-behavior:initial;
+    animation-name: h2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+h4 {
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 0.625em;
+    text-align:left;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+ul {
+    position:fixed;
+    list-style-type:none;
+    margin-left: 0%;
+    overflow: hidden;
+    padding: 0.625em;
+    /* background-color:rgb(8, 28, 141);*/
+    
+    /* border: 1px solid #e7e7e7; */
+}
+
+li {
+    float:inline-start;
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align:left;
+    padding: 0.188em 0.625em;
+    text-decoration: none;
+    background-color:rgb(6, 22, 112);
+    border-radius: 0.625em;
+    margin: 0.438em;
+    width: 11.25em;
+    height: 1.875em;
+    font-family: 'Tourney', cursive;
+    transition-duration: 0.4s;
+}
+/* Cambia el color del link a #111 (black) on hover */
+li a:hover {
+    background-color:rgb(14, 51, 85) ;
+    box-shadow: 0 .5em .5em 0 rgba(255,255,255,0.14), 0 .5em .5em 0 rgba(255,255,255,0.14);
+    transform: translateX(.625em);
+    font-size: 110%;
+    color: burlywood;
+    transition-duration: 700ms;
+  }
+
+img {
+    border-radius: 1.25em;
+    border-style: double;
+    margin-right: 1.875em;
+    margin-top: .625em;
+    margin-left: 21.875em;
+}
+
+
+section1 {
+    display:flex;
+    width: 100%;
+    
+}
+
+section1 div p {
+    margin-bottom: 1.5em;
+    margin-left: 1.25em;
+    text-align: left;
+}
+
+section1 img {
+    border-style: none;
+    transition-duration: 700ms;
+}
+
+section1 img:hover {
+    transform: translateX(.625em);
+    transform: scale(1.2);
+    transition-duration: 700ms;
+}
+
+
+hr {
+    border-width: .313em;
+    border-style: double;
+    border-color:goldenrod;
+}
+
+a {
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+div{
+    padding-top: .625em;
+    white-space: .188em;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+
+  }
+
+
+/* para dibujar un ícono sobre un fondo claro con un color oscuro de primer plano */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/*  para dibujar un ícono sobre un fondo oscuro con un color de primer plano claro */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+span {
+    margin-top: .313em;
+    margin-right: .625em;
+}
+
+
+#boton {
+    background-color:rgb(6, 22, 112);
+    border: none;
+    color:burlywood;
+    padding: .188em .625em;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1em;
+    margin: .25em 45% .25em 45%;
+    cursor: pointer;
+    border-radius: .25em;
+    font-family: 'Tourney', cursive;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    
+    animation-name: h2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#boton:hover {
+    background-color:rgb(14, 51, 85) ;
+    box-shadow: 0 .5em .5em 0 rgba(255,255,255,0.14), 0 .5em .5em 0 rgba(255,255,255,0.14);
+    transform: translateX(.625em);
+    font-size: 110%;
+    color: burlywood;
+    transition-duration: 700ms;
+}
+
+#boton:active {
+    box-shadow: 0 .313em #666;
+    transform: translateX(.25em);
+}
+
+.correo {
+    padding: .625em;
+    margin-left: 43%;
+    cursor: pointer;
+}
+
+.certificados {
+    display: fixed;
+    margin-left: 18.75px;
+    margin-right: 6.25em;
+}
+
+.imagen {
+    width: .625em;
+    height: .625em;
+    margin: 1.25em;
+    visibility:hidden;
+    transition-duration: .5s;
+    border-radius: .313em;
+    
+}
+
+.imagen:hover {
+    box-shadow: 0 .75em 1em 0 rgba(255, 255, 255, 0.904), 0 1.063em 3.125em 0 rgba(255,255,255,0.24);
+    transform: scale(3.5);
+}
+
+@keyframes titulo{
+    0% {color:rgb(134, 127, 224)}
+    50% {color:rgb(255, 255, 255)}
+    100% {color:rgb(134, 127, 224)}
+}
+
+@keyframes h2{
+    0% {background-color:rgb(19, 8, 170)}
+    50% {background-color:rgb(9, 38, 207)}
+    100% {background-color:rgb(19, 8, 170)}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    h1 {
+        width: 5px;
+    }
+    
+    ul{
+        display: block;
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    ul .material-icons{
+        display: none;
+        
+    }
+
+    li a {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 8px;
+        width: 125px;
+        height: 30px;
+        font-size: 85%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li a:hover {
+        font-size: 90%;
+        background-color:rgb(14, 51, 85) ;
+        box-shadow: 0 3px 3px 0 rgba(255,255,255,0.14), 0 3px 3px 0 rgba(255,255,255,0.14);
+        transform: translateX(1px);
+        color: burlywood;
+        transition-duration: 700ms;
+      }
+
+    #label_check{
+        display: block;
+      }
+    
+    section1 {
+        display:block;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    .foto{
+        margin: 0px;
+    }
+
+    img {
+        margin: 0px;
+    }
+
+    
+    .datos p {
+        text-align: center;
+    }
+    .mostrar {
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+  
+    section{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .certificados{
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .correo{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+}
+
+    
+    
+    
+    
+   
+/*
+    @media only screen and (min-width: 600px) {...}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
