@@ -158,7 +158,7 @@ hr {
 }
 
 a {
-    padding: 43%;
+    padding: 40px;
     color: white;
     text-align: center;
 }
@@ -286,39 +286,68 @@ span {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    header{
-        position:fixed;
-        display:block;
-        margin-top: 15%;
-        font-size: .8em;
-        height: auto;
-    }
+    
     h1 {
-        position: relative;
         width: 5px;
-
     }
     
     ul{
+        display: block;
         visibility: hidden;
+        margin: 0px;
+        padding: 0px;
     }
 
+    ul .material-icons{
+        display: none;
+        
+    }
+
+    li a {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 8px;
+        width: 125px;
+        height: 30px;
+        font-size: 85%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li a:hover {
+        font-size: 90%;
+        background-color:rgb(14, 51, 85) ;
+        box-shadow: 0 3px 3px 0 rgba(255,255,255,0.14), 0 3px 3px 0 rgba(255,255,255,0.14);
+        transform: translateX(1px);
+        color: burlywood;
+        transition-duration: 700ms;
+      }
     #label_check{
         display: block;
       }
-    
-    
+       
+ 
 
-    .icon__menu{
-        visibility: visible;
-        display: flex;
+    img {
+        margin-left: 7.875em;
     }
 
-    
-    #hamburguesa {
-        display: block;
+    section1 {
+        display:block;
+        margin-left: 0%;
     }
-
+    
+    .datos p {
+        text-align: center;
+    }
+    .mostrar {
+        margin-right: 90px;
+        
+    }
+    section{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
     
 }
 
