@@ -1,7 +1,7 @@
 body {
     background-color:rgb(7, 28, 145);
     color:white;
-    background-image: url('../media/img/fondo2.jpg');
+    *background-image: url("/assets/media/img/fondo2.jpg");
     background-size:cover;
     background-repeat:unset;
     background-blend-mode:color-burn;
@@ -310,8 +310,72 @@ span {
     100% {background-color:rgb(19, 8, 170)}
 }
 
-/* DISPOSITIVOS HASTA 768 PX */
-@media only screen and (max-width: 768px) {
+/* DISPOSITIVOS HASTA 576 PX */
+@media only screen and (max-width: 575px) {
+    
+    section, footer{
+        padding-left: 120px;
+        padding-right: 20px;
+        width: auto;
+    }
+
+    h1 {
+        width: 5px;
+    }
+    
+    ul{
+        display: block;
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    ul .material-icons{
+        display: none;
+        
+    }
+
+    li a {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 8px;
+        width: 125px;
+        height: 30px;
+        font-size: 85%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li a:hover {
+        font-size: 90%;
+        background-color:rgb(14, 51, 85) ;
+        box-shadow: 0 3px 3px 0 rgba(255,255,255,0.14), 0 3px 3px 0 rgba(255,255,255,0.14);
+        transform: translateX(1px);
+        color: burlywood;
+        transition-duration: 700ms;
+      }
+
+    #label_check{
+        display: block;
+      }
+    
+    section1 {
+        display:block;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    .foto{
+        margin: 0px;
+    }
+
+    img {
+        margin: 0px;
+    }
+}
+
+/* DISPOSITIVOS DESDE 576 HASTA 768 PX */
+@media only screen and (min-width:576px) and (max-width: 768px) {
     
     section, footer{
         padding-left: 120px;
