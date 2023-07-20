@@ -1,7 +1,7 @@
 body {
     background-color:rgb(7, 28, 145);
     color:white;
-    background-image: url("https://github.com/ManuelSaquilan/ManuelSaquilan-CV/blob/main/assets/media/img/fondo2.jpg");
+    background-image: url("/img/fondo2.jpg");
     background-size:cover;
     background-repeat:unset;
     background-blend-mode:color-burn;
