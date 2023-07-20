@@ -1,7 +1,6 @@
 body {
     background-color:rgb(7, 28, 145);
     color:white;
-    background-image: url("/assets/media/img/fondo2.png");
     background-size:cover;
     background-repeat:unset;
     background-blend-mode:color-burn;
@@ -121,7 +120,7 @@ li a {
     margin: 0.438em;
     width: 11.25em;
     height: 1.875em;
-    font-family: 'Tourney', cursive;
+    font-family: 'Tourney', 'Baloo Tamma 2';
     transition-duration: 0.4s;
 }
 /* Cambia el color del link a #111 (black) on hover */
