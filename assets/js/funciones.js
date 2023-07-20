@@ -142,12 +142,12 @@ certificado.addEventListener("click",function() {
 /* Scripts para menu hamburguesa */
 
 function ocultarmenu(){
-    if (screen.width<=600)
+    if (screen.width<=768)
         document.getElementById("ul").style.visibility="hidden";
 }
 
 function mostrarmenu(){
-    if (screen.width<=600)
+    if (screen.width<=768)
         document.getElementById("ul").style.visibility="visible";
 }
 

@@ -1,7 +1,13 @@
 body {
-    background-color:rgb(5, 19, 97);
+    background-color:rgb(7, 28, 145);
     color:white;
+    background-image: url("/assets/media/img/fondo2.jpg");
+    background-size:cover;
+    background-repeat:unset;
+    background-blend-mode:color-burn;
 }
+
+
 
 header{
     padding: 0px 0.563em;
@@ -9,8 +15,14 @@ header{
     top: 0;
     background:none;
     z-index: 1;
+    
 }
-
+section, footer{
+        width: 70%;
+        padding-left: 230px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 /*ELEMENTOS RESPONSIVOS*/
 
   
@@ -45,21 +57,25 @@ h1 {
     animation-iteration-count: infinite;
 }
 
+section div{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
 h2 {
+    display: block;
     position:relative;
     font-size: medium;
     color:burlywood;
     text-align: center;
-    text-shadow: 0.063em 0.188em 0.313em rgb(0, 0, 0);
+    justify-content: center;
+    text-shadow: 1px 2px 5px rgb(0, 0, 0);
     background-color:rgb(6, 22, 112);
-    border-radius: 0.625em;
-    padding: 0.625em;
-    width:fit-content;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 50%;
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 26px;
+    margin-bottom: 26px;
     scroll-behavior:initial;
     animation-name: h2;
     animation-duration: 2s;
@@ -100,7 +116,7 @@ li a {
     text-align:left;
     padding: 0.188em 0.625em;
     text-decoration: none;
-    background-color:rgb(6, 22, 112);
+    background-color:rgb(19, 8, 170);
     border-radius: 0.625em;
     margin: 0.438em;
     width: 11.25em;
@@ -118,24 +134,29 @@ li a:hover {
     transition-duration: 700ms;
   }
 
+.foto{
+        margin: 0px;
+}
+
 img {
     border-radius: 1.25em;
     border-style: double;
-    margin-right: 1.875em;
-    margin-top: .625em;
-    margin-left: 21.875em;
+    margin: 0px;
 }
+   
+
 
 
 section1 {
     display:flex;
     width: 100%;
-    
+    margin-left: 150px;
+    text-align: center;
 }
 
 section1 div p {
-    margin-bottom: 1.5em;
-    margin-left: 1.25em;
+    margin-bottom: 24px;
+    margin-left: 20px;
     text-align: left;
 }
 
@@ -209,23 +230,28 @@ span {
     margin-right: .625em;
 }
 
+.mostrar{
+        display: block;
+        margin-left: 0px;
+        margin-right: 0%;
+        text-align: center;
+    }
 
 #boton {
     background-color:rgb(6, 22, 112);
     border: none;
     color:burlywood;
-    padding: .188em .625em;
+    padding: 3px 10px;
     text-align: center;
     text-decoration: none;
     display:inline-block;
     font-size: 1em;
-    margin: .25em 45% .25em 45%;
+    margin: 4px 10px 4px 10px;
     cursor: pointer;
-    border-radius: .25em;
+    border-radius: 4px;
     font-family: 'Tourney', cursive;
     font-weight: bold;
     transition-duration: 0.4s;
-    
     animation-name: h2;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -245,16 +271,15 @@ span {
     transform: translateX(.25em);
 }
 
-.correo {
-    padding: .625em;
-    margin-left: 43%;
-    cursor: pointer;
-}
+.correo{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
 
 .certificados {
     display: fixed;
-    margin-left: 18.75px;
-    margin-right: 6.25em;
 }
 
 .imagen {
@@ -272,6 +297,7 @@ span {
     transform: scale(3.5);
 }
 
+
 @keyframes titulo{
     0% {color:rgb(134, 127, 224)}
     50% {color:rgb(255, 255, 255)}
@@ -284,9 +310,12 @@ span {
     100% {background-color:rgb(19, 8, 170)}
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* DISPOSITIVOS HASTA 768 PX */
+@media only screen and (max-width: 768px) {
     
+    section, footer{
+        padding-left: 120px;
+    }
     h1 {
         width: 5px;
     }
@@ -341,19 +370,14 @@ span {
         margin: 0px;
     }
 
-    
+    /*
     .datos p {
         text-align: center;
     }
-    .mostrar {
-        display: flex;
-        margin-left: 0px;
-        margin-right: 0px;
-        justify-content: center;
-    }
+   
 
   
-    section{
+    /*section{
         margin-left: 40px;
         margin-right: 40px;
     }
@@ -361,29 +385,37 @@ span {
         margin-left: 0px;
         margin-right: 0px;
         text-align: center;
-    }
-
-    .correo{
-        display: flex;
-        margin-left: 0px;
-        margin-right: 0px;
-        justify-content: center;
-    }
+    }*/
 }
-
     
     
     
     
    
-/*
-    @media only screen and (min-width: 600px) {...}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    }
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
 
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    section1 {
+        display:flex;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .foto{
+        margin: 0px;
+    }
+
+    img {
+        margin: 0px;
+    }
+    
+ 
+    li a {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 8px;
+        width: 145px;
+        height: 30px;
+        font-size: 85%;
+        align-items: center;
+        justify-content: center;
+    }
 }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
