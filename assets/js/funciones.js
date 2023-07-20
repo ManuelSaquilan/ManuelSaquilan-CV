@@ -151,3 +151,10 @@ function mostrarmenu(){
         document.getElementById("ul").style.visibility="visible";
 }
 
+window.addEventListener('resize', start);
+function start(){
+    if (screen.width>=768)
+        document.getElementById("ul").style.visibility="visible";
+    else
+        document.getElementById("ul").style.visibility="hidden";
+}
