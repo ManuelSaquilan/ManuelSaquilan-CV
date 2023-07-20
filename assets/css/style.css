@@ -1,7 +1,6 @@
 body {
     background-color:rgb(7, 28, 145);
     color:white;
-    background-image:url("./assets/media/img/fondo2.png");
     background-size:cover;
     background-repeat:unset;
     background-blend-mode:color-burn;
@@ -409,11 +408,8 @@ span {
 
     li a:hover {
         font-size: 90%;
-        background-color:rgb(14, 51, 85) ;
         box-shadow: 0 3px 3px 0 rgba(255,255,255,0.14), 0 3px 3px 0 rgba(255,255,255,0.14);
         transform: translateX(1px);
-        color: burlywood;
-        transition-duration: 700ms;
       }
 
     #label_check{
@@ -434,22 +430,6 @@ span {
         margin: 0px;
     }
 
-    /*
-    .datos p {
-        text-align: center;
-    }
-   
-
-  
-    /*section{
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .certificados{
-        margin-left: 0px;
-        margin-right: 0px;
-        text-align: center;
-    }*/
 }
     
     
@@ -482,4 +462,8 @@ span {
         align-items: center;
         justify-content: center;
     }
+    li a:hover {
+        font-size: 90%;        
+        transform: translateX(2px);
+      }
 }
